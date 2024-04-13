@@ -1,0 +1,16 @@
+service: riverhack
+
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  stage: dev
+  region: us-east-2
+
+functions:
+  app:
+    handler: index.handler
+    events:
+      - http: ANY /
+      - http: "ANY /{proxy+}"
