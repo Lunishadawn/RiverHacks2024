@@ -4,14 +4,14 @@ import '../css/Dropdown.css'
 
 const Dropdown = () => {
     return (    
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" id='btn' type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <div className="dropdown">
+            <button className="btn btn-secondary dropdown-toggle" id='btn' type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Experience
             </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Link 1</a></li>
-            <li><a class="dropdown-item" href="#">Link 2</a></li>
-            <li><a class="dropdown-item" href="#">Link 3</a></li>
+        <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href="#">Link 1</a></li>
+            <li><a className="dropdown-item" href="#">Link 2</a></li>
+            <li><a className="dropdown-item" href="#">Link 3</a></li>
         </ul>
         </div>
     )
