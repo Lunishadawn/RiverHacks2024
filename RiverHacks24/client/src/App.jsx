@@ -6,7 +6,7 @@ import CreateBlog from './pages/CreateBlog';
 import About from './pages/About';
 import Blogs from './pages/Blogs';
 import Resources from './pages/Resources';
-
+import Success from './pages/Success'
 
 
 function App() {
@@ -20,6 +20,8 @@ function App() {
       <Route path="/create" element={<CreateBlog />} />
       <Route path="/resources" element={<Resources />} />
       <Route path="/about" element={<About />} />
+      <Route path="/success" element={<Success />} />
+
     </Routes>
   </Router>
     </>
