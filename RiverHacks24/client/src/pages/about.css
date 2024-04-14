@@ -1,0 +1,21 @@
+body {
+    background-color: #8C52FF;
+}
+
+h1.title_h1 {
+    font-family: monospace, monospace;
+    text-align: center;
+    color: white;
+  }
+
+p.p_about {
+    font-family: monospace, monospace;
+    text-align: left;
+    color: white;
+}
+
+div.title_div {
+    width: 100%;
+    padding: 10%;
+    border: 1px solid #333;
+}
