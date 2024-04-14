@@ -19,7 +19,7 @@
   position: relative;
   color: white;
   right: 145vw;
-  top: 38vh;
+  top: 35vh;
 }
 
 #Logo {
@@ -32,7 +32,7 @@
   width: 600px;
   position: relative;
   right: 31vw;
-  top: 40vh;
+  top: 36vh;
 }
 
 #topleftsparkle {
@@ -43,11 +43,7 @@
 }
 
 #Moto {
-  width: 400px;
-  position: relative;
   color: white;
-  right: 180vw;
-  top: 103vh;
   text-align: center;
 }
 
@@ -155,8 +151,50 @@ span {
 #MeetMentors {
   width: 100vw;
   margin-bottom: 50px;
+  vertical-align: top;
+  display: inline-block;
 }
 
 #MeetMentors h1 {
+  margin-top: 200px;
   text-decoration: underline;
+}
+
+#Mleft {
+  width: 25%;
+  background-color: #d0c8ff;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 25vw;
+  position: relative;
+  left: 70px;
+}
+
+#Mmiddle {
+  width: 25%;
+  background-color: #d0c8ff;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 25vw;
+  position: relative;
+  left: 80px;
+}
+
+#Mright {
+  width: 50%;
+  background-color: #d0c8ff;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 25vw;
+  position: relative;
+  left: 90px;
 }
