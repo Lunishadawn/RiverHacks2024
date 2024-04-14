@@ -17,9 +17,9 @@ h1.title_h1 {
 p.p_about {
     font-family: monospace, monospace;
     text-align: left;
-    color: white;
+    color: black;
     padding: 3%;
-    background-color: #5E17EB;
+    background-color: white;
 }
 
 p.p_bio {
@@ -33,12 +33,13 @@ div.title_div {
     padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
+
 }
 
 h3.subtitle_h3 {
     font-family: monospace, monospace;
     text-align: center;
-    color: white;
+    color: #8C52FF;
 }
 
 h3.names_h3 {

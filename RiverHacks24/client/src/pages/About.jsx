@@ -95,7 +95,7 @@ const About = () => {
       <div class="team_member">
         <center><img src="https://cdn-icons-png.flaticon.com/512/4329/4329449.png" width="150"></img></center>
         <h3 class = "names_h3">Linh Huynh</h3>
-        <p class="p_bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        <p class="p_bio">Dedicated computer science student with a passion for coding and problem-solving, aspiring to engineer innovative software solutions for tomorrow's challenges.</p>
       </div>
       
       <div class="team_member">
@@ -107,13 +107,13 @@ const About = () => {
       <div class="team_member">
         <center><img src="https://cdn-icons-png.flaticon.com/512/4329/4329449.png" width="150"></img></center>
         <h3 class = "names_h3">Avery McClendon</h3>
-        <p class="p_bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        <p class="p_bio">An artistic programmer that blends technical knowledge with creative flair to shape the digital landscape.</p>
       </div>
       
       <div class="team_member">
         <center><img src="https://cdn-icons-png.flaticon.com/512/4329/4329449.png" width="150"></img></center>
         <h3 class = "names_h3">Jamie Pham</h3>
-        <p class="p_bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        <p class="p_bio">Just a girl who codes; aspires to code; passionate about meeting other girls who code</p>
       </div>
 
     </div>
