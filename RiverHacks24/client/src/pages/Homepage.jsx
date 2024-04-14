@@ -58,9 +58,19 @@ const Homepage = () => {
             top: "40vh",
           }}
         />
-        <h3 style={{ width: '400px',position: 'relative', color: 'white', right: '190vw', top: '112vh'}}>Who Codes? She Codes.</h3>
+        <h3
+          style={{
+            width: "400px",
+            position: "relative",
+            color: "white",
+            right: "190vw",
+            top: "112vh",
+          }}
+        >
+          Who Codes? She Codes.
+        </h3>
       </div>
-
+          <br />
       <div
         id="Grid"
         style={{ backgroundColor: "#8C52FF", position: "relative" }}
@@ -118,8 +128,10 @@ const Homepage = () => {
         >
           <h1>Why the World Needs Girl PowerEd</h1>
           <h5>
-          Fostering the participation of girls in STEM is not only essential for promoting gender equality but also for driving innovation, economic growth, and addressing global challenges more inclusively and effectively.
-
+            Fostering the participation of girls in STEM is not only essential
+            for promoting gender equality but also for driving innovation,
+            economic growth, and addressing global challenges more inclusively
+            and effectively.
           </h5>
         </div>
         <div
@@ -138,6 +150,7 @@ const Homepage = () => {
           </h5>
         </div>
       </div>
+      <br />
     </>
   );
 };
