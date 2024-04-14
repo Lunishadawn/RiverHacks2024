@@ -1,0 +1,30 @@
+#readMoreBtn {
+    font-family: copperplate;
+    border-color: transparent;
+    background-color: #F8EDF2;
+    color: #646CFF;
+}
+
+#modal {
+    background-color: #F8EDF2;
+    text-align: left;
+    margin: 5%;
+    margin-top: auto;
+    padding: 5px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+#staticBackdropLabel, .modal-header {
+    font-family: copperplate;
+    color: black;
+}
+
+.modal-body {
+    font-family: monospace;
+}
+
+.modal-footer {
+    margin: 2%, 5%;
+    font-family: copperplate;
+}

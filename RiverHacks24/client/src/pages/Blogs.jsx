@@ -3,6 +3,7 @@ import Card from '../components/Card'
 import NavBar from '../components/NavBar'
 import Dropdown from '../components/Dropdown'
 import '../css/Blogs.css'
+import Modal from '../components/Modal'
 import { useState, useEffect } from 'react'
 
 const Blogs = () => {
