@@ -58,6 +58,7 @@ const Homepage = () => {
             top: "40vh",
           }}
         />
+        <h3 style={{ width: '400px',position: 'relative', color: 'white', right: '190vw', top: '112vh'}}>Who Codes? She Codes.</h3>
       </div>
 
       <div
