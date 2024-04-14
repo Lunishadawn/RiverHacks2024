@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const posts = require("./MockData/posts")
- const PORT = 3000; // local testing
+//  const PORT = 3000; // local testing
 // Foundation
 
 // MiddleWare
@@ -50,5 +50,5 @@ app.post('/create', (req, res) => {
 
 
 //  // listener is not required/ local testing
- app.listen(PORT, () => console.log('App deployed on port ' + PORT))
+//  app.listen(PORT, () => console.log('App deployed on port ' + PORT))
 module.exports.handler = serverless(app);
