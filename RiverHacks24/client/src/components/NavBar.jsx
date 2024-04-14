@@ -14,21 +14,21 @@ const NavBar = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" id='home' href="javascript:void(0)">Home</a>
+          <a class="nav-link" id='home' href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id='about' href="javascript:void(0)">About</a>
+          <a class="nav-link" id='about' href="/about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id='blogs' href="javascript:void(0)">Blogs</a>
+          <a class="nav-link" id='blogs' href="/blogs">Blogs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id='create' href="javascript:void(0)">Create</a>
+          <a class="nav-link" id='create' href="/create">Create</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id='resources' href="javascript:void(0)">Resources</a>
+          <a class="nav-link" id='resources' href="/resources">Resources</a>
         </li>
       </ul>
       <form class="d-flex">
