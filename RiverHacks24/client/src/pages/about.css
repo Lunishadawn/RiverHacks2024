@@ -1,0 +1,72 @@
+body {
+    background-color: #8C52FF;
+    background-size: 60px 60px;
+    background-image:
+        linear-gradient(to right, #D0C8FF 1px, transparent 1px),
+        linear-gradient(to bottom, #D0C8FF 1px, transparent 1px);
+}
+
+h1.title_h1 {
+    font-family: monospace, monospace;
+    text-align: center;
+    color: white;
+    padding: 3%;
+    background-color: #B172E8;
+  }
+
+p.p_about {
+    font-family: monospace, monospace;
+    text-align: left;
+    color: black;
+    padding: 3%;
+    background-color: white;
+}
+
+p.p_bio {
+    font-family: monospace, monospace;
+    text-align: center;
+    color: black;
+}
+
+div.title_div {
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+h3.subtitle_h3 {
+    font-family: monospace, monospace;
+    text-align: center;
+    color: #8C52FF;
+}
+
+h3.names_h3 {
+    font-family: monospace, monospace;
+    text-align: center;
+    color: black;
+    padding-top: 8%;
+}
+
+mark {
+    background-color: #D0C8FF;
+    color: black;
+  }
+
+div.team_member {
+    width: 22%;
+    background-color: #D0C8FF;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .team-member {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
