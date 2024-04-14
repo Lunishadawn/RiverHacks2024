@@ -6,7 +6,13 @@ const Dropdown = () => {
     return (    
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" id='btn' type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Language
+            </button>
+            <button class="btn btn-secondary dropdown-toggle" id='btn' type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Experience
+            </button>
+            <button class="btn btn-secondary dropdown-toggle" id='btn' type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Topic
             </button>
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Link 1</a></li>
