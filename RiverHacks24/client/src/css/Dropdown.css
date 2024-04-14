@@ -1,0 +1,10 @@
+.dropdown {
+    margin-left: 5%;
+    font-family: monospace;
+}
+
+#btn {
+    background-color: white;
+    color: black;
+    border-color: #B172E8;
+}

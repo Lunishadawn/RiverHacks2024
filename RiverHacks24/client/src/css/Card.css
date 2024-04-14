@@ -1,0 +1,24 @@
+.card {
+    top: 50px;
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: copperplate;
+    border-color: #B172E8;
+    background-color: #F8EDF2;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.card-text {
+    font-family: monospace;
+}
+
+hr {
+    color: #CB6CE6;
+    border-width: 2px;
+    margin-top: 5px;
+}
