@@ -2,11 +2,14 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import '../css/create.css'
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const CreateBlog = () => {
   const [title, setTitle] = useState("")
   const [author, setAuthor] = useState("")
   const [description, setDescription] = useState("")
+
+  const navigate = useNavigate();
 
   const handleSubmit = (event) => {
     // Preventing the default form submission behavior
@@ -21,7 +24,11 @@ const CreateBlog = () => {
     .then(res => res.json())
     .then(data => {
       console.log("Success", data)
-    })
+      setTitle("");
+      setAuthor("");
+      setDescription("");
+      navigate('/success');
+  })
     .catch((error) => console.log("Error creating new blog post: ", error))
   };
 
