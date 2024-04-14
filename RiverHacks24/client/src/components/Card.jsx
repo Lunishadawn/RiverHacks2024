@@ -9,10 +9,9 @@ const Card = ({ title, description}) => {
             <div className="card-body">
               <h5 className="card-title">{title}</h5>
               <hr />
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <Modal/>
+              
               <p className="card-text">{description}</p>
-              <a href="#" className="card-link">Read more</a>
+              <Modal/>
             </div>
         </div>
     )

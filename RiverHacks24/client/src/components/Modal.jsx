@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import '../css/Modal.css'
 
 const Modal = (props) => {
-    const [modalTriggered, setModalTriggered] = useState(true);
+    const [modalTriggered, setModalTriggered] = useState(false);
   
     const handleModalTrigger = () => setModalTriggered(!modalTriggered);
   
