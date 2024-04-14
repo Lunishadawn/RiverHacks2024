@@ -1,0 +1,32 @@
+#navDivResourcePage {
+    position: relative;
+    top: 43vh;
+}
+
+.resourceDesc {
+    color: white;
+    margin: 0rem 3rem
+}
+
+.resourceLink {
+    color: #2d0391;
+    font-size: 2em;
+    margin-left: 3rem;
+}
+
+.resourceCard {
+    margin: 2em;
+    background-color: rgba(83, 165, 238, 0.822);
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    border-radius: 30px;
+}
+
+#resourceHeader {
+    margin-top: 1em;
+
+}
+
+#header2 {
+    margin-bottom: 3em;
+}
