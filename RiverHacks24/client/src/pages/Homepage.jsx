@@ -4,6 +4,7 @@ import Logo from "../images/Logo.svg";
 import Particles from "../images/particles.svg";
 import Girls from "../images/Girls.svg";
 import "../css/Homepage.css";
+import Card from "../components/Card";
 
 const Homepage = () => {
   return (
@@ -60,13 +61,42 @@ const Homepage = () => {
           </h5>
         </div>
       </div>
+    <div >
+      <h1 id="stat">Statistics</h1>
+      
       <div id="WomenBoards">
-        <h4>Campanies with more women on their boards outperfromed rivals by <span>42% higher</span> return in sales, <span>66% higher</span> return on invested capital, and <span>53% higher</span> return on equity.</h4>
+        <h4>
+          Campanies with more women on their boards outperfromed rivals by{" "}
+          <span>42% higher</span> return in sales, <span>66% higher</span>{" "}
+          return on invested capital, and <span>53% higher</span> return on
+          equity.
+        </h4>
         <h6>- Women on Boards (2011)</h6>
       </div>
       <div id="SocietyEngineers">
-        <h4>Globally, women comprise only <span>29.2%</span> of the STEM workforce in 146 nations evaluated, compared to nearly <span>50%</span> of non-STEM occupations.</h4>
+        <h4>
+          Globally, women comprise only <span>29.2%</span> of the STEM workforce
+          in 146 nations evaluated, compared to nearly <span>50%</span> of
+          non-STEM occupations.
+        </h4>
         <h6>- Society of Women Engineers (2023)</h6>
+      </div>
+    </div>
+      <div id="FeaturedBlogs">
+        <h1>Featured Blogs</h1>
+        <div>
+          <Card />
+          <Card />
+          <Card />
+        </div>
+      </div>
+      <div id="MeetMentors">
+        <h1>Meet the Mentors </h1>
+        <div>
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
     </>
   );
