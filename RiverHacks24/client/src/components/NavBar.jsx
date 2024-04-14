@@ -14,25 +14,25 @@ const NavBar = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" id='home' href="/">Home</a>
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <a className="nav-link" id='home' href="/">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id='about' href="/about">About</a>
+        <li className="nav-item">
+          <a className="nav-link" id='about' href="/about">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id='blogs' href="/blogs">Blogs</a>
+        <li className="nav-item">
+          <a className="nav-link" id='blogs' href="/blogs">Blogs</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id='create' href="/create">Create</a>
+        <li className="nav-item">
+          <a className="nav-link" id='create' href="/create">Create</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id='resources' href="/resources">Resources</a>
+        <li className="nav-item">
+          <a className="nav-link" id='resources' href="/resources">Resources</a>
         </li>
       </ul>
-      <form class="d-flex">
-        <button class="btn btn-primary" id='login-btn' type="button">Login</button>
+      <form className="d-flex">
+        <button className="btn btn-primary" id='login-btn' type="button">Login</button>
       </form>
     </div>
   </div>

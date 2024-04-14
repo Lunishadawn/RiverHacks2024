@@ -1,0 +1,32 @@
+#navContainer {
+  position: relative;
+}
+
+#formContainer {
+  position: absolute;
+  top: 22vh;
+  left: 9%;
+  margin-top: -7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  min-width: 50vw;
+}
+
+body {
+    background-color: #8C52FF;
+}
+
+label {
+    color: white;
+}
+
+
+#formHeader {
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: white;
+}
