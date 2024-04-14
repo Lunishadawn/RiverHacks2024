@@ -1,0 +1,143 @@
+#Nav {
+  position: relative;
+  top: 50vh;
+  z-index: 1000;
+  width: 100vw;
+}
+
+#background {
+  background-color: #8c52ff;
+  background-image: url("../images/Hearts_background.png");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#Girls {
+  width: 800px;
+  position: relative;
+  color: white;
+  right: 145vw;
+  top: 38vh;
+}
+
+#Logo {
+  width: 1420px;
+  position: relative;
+  top: 10vh;
+}
+
+#bottomrightsparkle {
+  width: 600px;
+  position: relative;
+  right: 31vw;
+  top: 40vh;
+}
+
+#topleftsparkle {
+  width: 600px;
+  position: relative;
+  right: 141vw;
+  bottom: 15vh;
+}
+
+#Moto {
+  width: 400px;
+  position: relative;
+  color: white;
+  right: 180vw;
+  top: 103vh;
+  text-align: center;
+  
+}
+
+#Mission {
+  background-color: #cb6ce6;
+  color: white;
+  width: 800px;
+  position: relative;
+  left: 25vw;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+#WhatpowerEd {
+  background-color: #5e17eb;
+  color: white;
+  width: 800px;
+  position: relative;
+  left: 25vw;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+#WorldGirlPowerEd {
+  background-color: #cb6ce6;
+  color: white;
+  width: 800px;
+  position: relative;
+  left: 25vw;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+#Resources {
+  background-color: #5e17eb;
+  color: white;
+  width: 800px;
+  position: relative;
+  left: 25vw;
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  
+}
+
+#WomenBoards {
+    margin-top: 20px;
+    background-color: #8c52ff;
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    text-align: center;
+    padding: 20px;
+}
+
+#WomenBoards h4 {
+    color: white;
+}
+
+#WomenBoards h6 {
+    color: white;
+    text-decoration: underline;
+}
+
+#SocietyEngineers {
+    margin-top: 20px;
+    background-color: #8c52ff;
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#SocietyEngineers h4 {
+    color: white;
+}
+
+
+#SocietyEngineers h6 {
+    color: white;
+    text-decoration: underline;
+}
+
+span {
+    background-color: #d0c8ff;
+    color: #8c52ff;
+}

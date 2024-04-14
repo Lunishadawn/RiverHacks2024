@@ -1,90 +1,27 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import Heart from "../images/Hearts_background.png";
 import Logo from "../images/Logo.svg";
 import Particles from "../images/particles.svg";
 import Girls from "../images/Girls.svg";
+import "../css/Homepage.css";
 
 const Homepage = () => {
   return (
     <>
-      <NavBar />
-      <div
-        style={{
-          backgroundColor: "#8C52FF",
-          backgroundImage: `url(${Heart})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "100vw",
-          position: "relative",
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
-        <img
-          src={Logo}
-          alt="Girl PowerEd"
-          style={{ width: "1420px", position: "relative", top: "10vh" }}
-        />
-        {/* bottom right sparkle */}
-        <img
-          src={Particles}
-          alt="Sparkles"
-          style={{
-            width: "600px",
-            position: "relative",
-            right: "31vw",
-            top: "40vh",
-          }}
-        />
-        {/* Top left sparkle */}
-        <img
-          src={Particles}
-          alt="Sparkles"
-          style={{
-            width: "600px",
-            position: "relative",
-            right: "141vw",
-            bottom: "15vh",
-          }}
-        />
-
-        <img
-          src={Girls}
-          alt="Power Girls"
-          style={{
-            width: "800px",
-            position: "relative",
-            right: "155vw",
-            top: "40vh",
-          }}
-        />
-        <h3
-          style={{
-            width: "400px",
-            position: "relative",
-            color: "white",
-            right: "190vw",
-            top: "112vh",
-          }}
-        >
-          Who Codes? She Codes.
-        </h3>
+      <div id="Nav">
+        <NavBar />
       </div>
-          <br />
-      <div
-        id="Grid"
-        style={{ backgroundColor: "#8C52FF", position: "relative" }}
-      >
-        <div
-          style={{
-            backgroundColor: "#CB6CE6",
-            color: "white",
-            width: "800px",
-            position: "relative",
-            left: "25vw",
-            textAlign: "center",
-          }}
-        >
+      <div id="background">
+        <img src={Logo} alt="Girl PowerEd" id="Logo" />
+        {/* bottom right sparkle */}
+        <img src={Particles} alt="Sparkles" id="bottomrightsparkle" />
+        {/* Top left sparkle */}
+        <img src={Particles} alt="Sparkles" id="topleftsparkle" />
+        <img src={Girls} alt="Power Girls" id="Girls" />
+        <h3 id="Moto">Who Codes? She Codes.</h3>
+      </div>
+      <div>
+        <div id="Mission">
           <h1>Our Mission</h1>
           <h5>
             Girl PowerEd is dedicated to shaping the future of STEM education as
@@ -96,16 +33,7 @@ const Homepage = () => {
           </h5>
         </div>
 
-        <div
-          style={{
-            backgroundColor: "#5E17EB",
-            color: "white",
-            width: "800px",
-            position: "relative",
-            left: "25vw",
-            textAlign: "center",
-          }}
-        >
+        <div id="WhatpowerEd">
           <h1>What is Girl powerEd?</h1>
           <h5>
             Girl PowerEd is a website where dedicated female mentors, actively
@@ -116,16 +44,7 @@ const Homepage = () => {
             our “About” page.
           </h5>
         </div>
-        <div
-          style={{
-            backgroundColor: "#CB6CE6",
-            color: "white",
-            width: "800px",
-            position: "relative",
-            left: "25vw",
-            textAlign: "center",
-          }}
-        >
+        <div id="WorldGirlPowerEd">
           <h1>Why the World Needs Girl PowerEd</h1>
           <h5>
             Fostering the participation of girls in STEM is not only essential
@@ -134,23 +53,21 @@ const Homepage = () => {
             and effectively.
           </h5>
         </div>
-        <div
-          style={{
-            backgroundColor: "#5E17EB",
-            color: "white",
-            width: "800px",
-            position: "relative",
-            left: "25vw",
-            textAlign: "center",
-          }}
-        >
+        <div id="Resources">
           <h5>
             See the rest of resources and information our all-female team worked
             hard to bring to you by browsering through our menus!
           </h5>
         </div>
       </div>
-      <br />
+      <div id="WomenBoards">
+        <h4>Campanies with more women on their boards outperfromed rivals by <span>42% higher</span> return in sales, <span>66% higher</span> return on invested capital, and <span>53% higher</span> return on equity.</h4>
+        <h6>- Women on Boards (2011)</h6>
+      </div>
+      <div id="SocietyEngineers">
+        <h4>Globally, women comprise only <span>29.2%</span> of the STEM workforce in 146 nations evaluated, compared to nearly <span>50%</span> of non-STEM occupations.</h4>
+        <h6>- Society of Women Engineers (2023)</h6>
+      </div>
     </>
   );
 };
